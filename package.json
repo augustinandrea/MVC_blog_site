@@ -1,0 +1,31 @@
+{
+  "name": "mvc_blog_site",
+  "version": "1.0.0",
+  "description": "MVC blog site challenge",
+  "main": "server.js",
+  "scripts": {
+    "test": "none",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/augustinandrea/MVC_blog_site.git"
+  },
+  "keywords": [
+    "none"
+  ],
+  "author": "Andrea Augustin",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/augustinandrea/MVC_blog_site/issues"
+  },
+  "homepage": "https://github.com/augustinandrea/MVC_blog_site#readme",
+  "dependencies": {
+    "bcrypt": "^5.0.1",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "express-session": "^1.17.2",
+    "mysql2": "^2.2.5",
+    "sequelize": "^6.6.2"
+  }
+}
