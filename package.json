@@ -4,20 +4,23 @@
   "description": "MVC blog site challenge",
   "main": "server.js",
   "scripts": {
-    "test": "none",
-    "start": "node server.js"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js",
+    "watch": "nodemon server.js",
+    "seed": "node seeds/index.js"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/augustinandrea/MVC_blog_site.git"
   },
-  "keywords": [
-    "none"
-  ],
+  "keywords": [],
   "author": "Andrea Augustin",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/augustinandrea/MVC_blog_site/issues"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.3"
   },
   "homepage": "https://github.com/augustinandrea/MVC_blog_site#readme",
   "dependencies": {
@@ -29,7 +32,6 @@
     "express-session": "^1.17.2",
     "jest": "^27.0.5",
     "mysql2": "^2.2.5",
-    "nodemon": "^2.0.7",
     "sequelize": "^6.6.2"
   }
 }
