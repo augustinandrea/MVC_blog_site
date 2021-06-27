@@ -28,7 +28,7 @@ require("dotenv").config();
 // initialize sessions
 const sess = {
     secret: process.env.DB_SESSION_SECRET,
-    cookie: { maxAge: 72000000 },
+    cookie: { maxAge: 1800000 },
     resave: true,
     rolling: true,
     saveUninitialized: true,
