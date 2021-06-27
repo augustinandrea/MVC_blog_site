@@ -105,6 +105,10 @@
     flex: 1;
     padding: 2% 4%;
   }
+
+  section{
+      border-color: var(--brown);
+  }
   
   .btn-no-style {
     background: none;
