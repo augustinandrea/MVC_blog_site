@@ -26,7 +26,7 @@
 5. Then to put all the needed info into the db, type "npm run seed"
 6. Then to run on the local host, you can type either "node server.js" or "npm start"
 
-Here is also the link to the Heroku deployed: 
+Here is also the link to the Heroku deployed: https://mvc-tech-blog-website.herokuapp.com/
 
   
   ## License 

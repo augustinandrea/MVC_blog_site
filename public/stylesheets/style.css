@@ -33,7 +33,6 @@ h2{
   background-color: var(--brown);
   color: var(--light-mint);
   margin:0px;
-  margin-top: 10px;
 }
   
   button {
@@ -73,6 +72,7 @@ h2{
   
   form label {
     display: block;
+    padding-top: 10px;
   }
   
   .wrapper {
@@ -120,7 +120,7 @@ main {
 .signup-form{
   border: var(--brown);
   border-style: solid;
-  padding-top: 20px;
+  padding: 10px 10px 10px 10px;
 }
 
 .title{
@@ -131,11 +131,27 @@ main {
 .login-form{
   border: var(--brown);
   border-style: solid;
-  padding-top: 20px;
-  padding-left: 10px;
+  padding: 10px 10px 10px 10px;
   display: flex;
   flex-direction: column;
+}
 
+#logout{
+  background-color: unset;
+  padding: 0;
+  color: var(--light-mint);
+  font-size: 16px;
+}
+
+#logout:hover{
+  color: #3486eb
+}
+
+/*create button*/
+#create-post{
+  display: flex;
+  justify-content: center;
+  padding: 10px;
 }
 
 /* So button has no style*/  
@@ -159,6 +175,11 @@ main {
 
   /*for the new post form*/
   .new-post-form {
+    margin-top: 10px;
+  }
+
+  /*edit form css*/
+  .edit-post-form{
     margin-top: 10px;
   }
 
