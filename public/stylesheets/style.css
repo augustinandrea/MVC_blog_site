@@ -157,11 +157,15 @@ main {
   }
   
   .delete-post-btn {
-    background-color: #d41414;
   }
   
   .delete-post-btn:hover {
     background-color: #ff643d;
+  }
+
+  /*comments*/
+  #comment_number{
+    color:var(--brown);
   }
   
   .post {
@@ -211,13 +215,17 @@ main {
     font-size: 110%;
   }
 
-  .card {
-      margin-bottom: 1em;
-      margin-top: 1em;
+.card {
+  margin-bottom: 1em;
+  margin-top: 1em;
+  border-style: solid;
+}
 
-  }
+.is-pulled-right{
+  padding-top: 15px;
+}
 
-  .rows{
+.rows{
       display:flex;
       flex-direction: column;
-  }
+}
