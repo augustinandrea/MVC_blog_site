@@ -4,30 +4,37 @@
 
   /*The main variable roots*/
 :root {
-    --brown: rgb(31, 13, 13);
-    --light-mint: rgb(136, 165, 155);
-    --dark-mint: rgb(88, 107, 100);
+  --brown: rgb(31, 13, 13);
+  --light-mint: rgb(136, 165, 155);
+  --dark-mint: rgb(88, 107, 100);
 }
   
-  body, html {
+body, html {
     height: 100%;
     padding: 0;
     margin: 0;
     font-family: sans-serif;
     color: var(--brown);
-  }
+}
   
-  a {
+a {
     text-decoration: none;
     font-weight: bold;
     padding-right: 15px;
     padding-left: 10px;
     color: var(--light-mint);
-  }
+}
   
   a:hover {
     color: #3486eb;
   }
+
+h2{
+  background-color: var(--brown);
+  color: var(--light-mint);
+  margin:0px;
+  margin-top: 10px;
+}
   
   button {
     border: 0;
@@ -86,30 +93,51 @@
     padding: 0 1%;
   }
 
-  .navbar{
-    padding-top: 10px;
-    padding-bottom: 10px;
-  }
+/*homepage screen css*/
 
-  #main_title{
-      background-color: var(--light-mint);
-      font-size: 25px;
-      margin: 10px 10px 10px 10px;
-      padding: 10px 10px 10px;
-      border-radius: 10px;
-      box-shadow:3px 3px var(--dark-mint);
-  }
-  
-  main {
-    background-color:var(--light-mint);
-    flex: 1;
-    padding: 2% 4%;
-  }
+.navbar{
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
 
-  section{
-      border-color: var(--brown);
-  }
+#main_title{
+    background-color: var(--light-mint);
+    font-size: 25px;
+    margin: 10px 10px 10px 10px;
+    padding: 10px 10px 10px;
+    border-radius: 10px;
+    box-shadow:3px 3px var(--dark-mint);
+}
   
+main {
+  background-color:var(--light-mint);
+  flex: 1;
+  padding: 2% 4%;
+}
+
+/*Sign up form css*/
+.signup-form{
+  border: var(--brown);
+  border-style: solid;
+  padding-top: 20px;
+}
+
+.title{
+  padding:10px;
+}
+
+/*login css*/
+.login-form{
+  border: var(--brown);
+  border-style: solid;
+  padding-top: 20px;
+  padding-left: 10px;
+  display: flex;
+  flex-direction: column;
+
+}
+
+/* So button has no style*/  
   .btn-no-style {
     background: none;
     border: none;
